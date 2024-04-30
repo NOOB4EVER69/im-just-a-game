@@ -2,7 +2,7 @@
 let score = 0;
 
 document.addEventListener('keydown', function (event) {
-    if (event.key === 's') {
+    if (event.key === 's' && !event.repeat) {
         score++;
         updateScore();
         checkAchievements();
