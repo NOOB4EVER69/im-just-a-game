@@ -1,0 +1,131 @@
+.pts {
+    margin: auto;
+    -webkit-user-select: none;
+    user-select: none;
+    margin-top: 160px;
+
+    font-size: 140px;
+    font-weight: 600;
+    font-family: 'Brush Script MT', cursive;
+}
+
+
+
+
+
+
+
+
+.wshop {
+    -webkit-user-select: none;
+    user-select: none;
+    margin-left: 13px;
+    margin-top: 0px;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.wup1 {
+    -webkit-user-select: none;
+    user-select: none;
+    margin-left: 0px;
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.atc {
+    -webkit-user-select: none;
+    user-select: none;
+    margin-left: 30px;
+    margin-top: -10px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.atc1 {
+    -webkit-user-select: none;
+    user-select: none;
+    margin-left: 30px;
+    margin-top: -10px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.atc2 {
+    -webkit-user-select: none;
+    user-select: none;
+    margin-left: 30px;
+    margin-top: -10px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.atc3 {
+    -webkit-user-select: none;
+    user-select: none;
+    margin-left: 30px;
+    margin-top: -10px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.atc4 {
+    -webkit-user-select: none;
+    user-select: none;
+    margin-left: 30px;
+    margin-top: -10px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.atc5 {
+    -webkit-user-select: none;
+    user-select: none;
+    margin-left: 30px;
+    margin-top: -10px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Brush Script MT', cursive;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    /* Prevents scrolling in both directions */
+    height: 100vh;
+    /* Sets the body height to the viewport height */
+    margin: 0;
+    /* Removes default margin */
+}
+
+.con,
+.shop {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+    margin: 0;
+}
+
+.dashboard {
+    display: flex;
+    /* Enables Flexbox */
+    justify-content: center;
+    /* Centers items horizontally */
+    align-items: center;
+    /* Centers items vertically */
+    height: 100vh;
+    /* Sets the height to the viewport height */
+    overflow: hidden;
+    /* Prevents scrolling */
+}
