@@ -6,6 +6,7 @@ document.addEventListener('keydown', function (event) {
         score++;
         updateScore();
         checkAchievements();
+        document.getElementById("pts").style.fontSize = "140px"
     }
 });
 
@@ -39,3 +40,4 @@ function checkAchievements() {
         document.getElementById("atc5").style.visibility = "visible"
     }
 }
+

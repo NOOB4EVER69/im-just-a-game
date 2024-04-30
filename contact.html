@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./cont.css">
+</head>
+
+<body>
+
+    <div class="contact-container">
+        <button onclick="location.href='index.html'">back</button>
+        <h1>Get in Touch with Us!</h1>
+        <p>We love to hear from our visitors. Whether you have a question, feedback, or just want to say hello, feel
+            free to drop us a message!</p>
+
+        <form id="contact-form" action="https://formspree.io/f/mgegprzp" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="_replyto" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <script src="site.js"></script>
+</body>
+
+</html>
